@@ -111,10 +111,9 @@ body {
     justify-content: center;
     .card-tecnologias {
         padding: 10px;
-        max-width: 150px;
+        max-width: 145px;
         margin: 15px;
         &:hover {
-            cursor: pointer;
             background-color: rgba(0, 0, 0, 0.1);
         }
     }
