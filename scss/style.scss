@@ -74,13 +74,6 @@ body {
         }
     }
 }
-// Color buttons
-button.github {
-    background-color: #24292e;
-}
-button.linkedin {
-    background-color: #0e76a8;
-}
 
 
 // Sobre mí
@@ -234,8 +227,6 @@ button.linkedin {
         border: none;
         border-radius: 50%;
         transition: opacity 0.4s;
-    }
-    button a {
         color: #fff;
         font-size: 1.5rem;
         text-decoration: none;
@@ -243,4 +234,12 @@ button.linkedin {
             opacity: 0.6;
         }
 }
+}
+
+// Color buttons
+button.github {
+    background-color: #24292e;
+}
+button.linkedin {
+    background-color: #0e76a8;
 }
