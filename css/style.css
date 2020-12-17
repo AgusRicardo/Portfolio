@@ -18,13 +18,12 @@ body {
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-image: url("/img/la-tierra.jpg");
+  background-image: url("../img/la-tierra.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover; }
+}
 
 .menu {
   font-family: "Roboto Mono", monospace;
