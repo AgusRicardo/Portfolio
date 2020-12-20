@@ -16,19 +16,16 @@
         <!-- IMG FONDO PORTADA - NAV  -->
         <div class="row no-gutters fondo">
             <div class="img-fondo-portada"></div>
-            <div class="row align-items-end justify-content-center menu sticky-top">
+            <div class="row align-items-end justify-content-center menu">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" onclick="goToId('sobre-mi')">Sobre mí</a>
+                        <a class="nav-link" onclick="goToId('sobre-mi')"><i class="fas fa-address-card"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="goToId('tecnologias')">Tecnologias</a>
+                        <a class="nav-link" onclick="goToId('proyectos')"><i class="fas fa-project-diagram"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="goToId('proyectos')">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" onclick="goToId('contacto')">Contacto</a>
+                        <a class="nav-link" onclick="goToId('contacto')"><i class="fas fa-envelope"></i></a>
                     </li>
                 </ul>
             </div>
@@ -50,7 +47,13 @@
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque velit corrupti animi soluta modi dolore maiores alias consectetur explicabo fugiat. Aliquid officiis molestiae sequi obcaecati velit quidem consequatur? Similique, culpa.</p>
-                        <a href=""><button class="btn-curriculum"><i class="fas fa-cloud-download-alt"></i>Curriculum vitae</button></a>
+                        <div class="buttons-curriculum">
+                            <a href=""><button class="btn-curriculum"><i class="fas fa-cloud-download-alt"></i>Curriculum vitae</button></a>
+                        <div class="buttons-redes">
+                            <a href="https://github.com/agustinricardo1" target="_blank"><button class="github"><i class="fab fa-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/agustin-ricardo/" target="_blank"><button class="linkedin"><i class="fab fa-linkedin"></i></button></a>
+                        </div>
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -64,25 +67,25 @@
             <div class="row no-gutters">
                 <div class="card-deck section-tecnologias">
                     <div class="card col-3 card-tecnologias">
-                        <img src="./img/photoshop.png" class="card-img-top" alt="...">
+                        <img src="./img/tecnologias/photoshop.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card col-3 card-tecnologias">
-                        <img src="./img/html.png" class="card-img-top" alt="...">
+                        <img src="./img/tecnologias/html.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card col-3 card-tecnologias">
-                        <img src="./img/css.png" class="card-img-top" alt="...">
+                        <img src="./img/tecnologias/css.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card col-3 card-tecnologias">
-                            <img src="./img/bootstrap.png" class="card-img-top" alt="...">
+                            <img src="./img/tecnologias/bootstrap.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card col-3 card-tecnologias">
-                            <img src="./img/sass.png" class="card-img-top" alt="...">
+                            <img src="./img/tecnologias/sass.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card col-3 card-tecnologias">
-                        <img src="./img/javascript.png" class="card-img-top" alt="...">
+                        <img src="./img/tecnologias/javascript.png" class="card-img-top" alt="...">
                     </div>
                     <div class="card col-3 card-tecnologias">
-                        <img src="./img/git.png" class="card-img-top" alt="...">
+                        <img src="./img/tecnologias/git.png" class="card-img-top" alt="...">
                     </div>
                 </div>
             </div>
@@ -100,7 +103,7 @@
             <div class="row no-gutters">
                 <div class="card-deck section-proyectos">
                     <div class="card col-4 card-proyectos">
-                        <img src="./img/alle-boutique.png" class="card-img-top" alt="...">
+                        <img src="./img/proyectos/alle-boutique.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Allé Boutique</h5>
                             <p class="card-text">Este es el proyecto final del curso de Desarrollo Web de CODER HOUSE.</p>
@@ -109,7 +112,7 @@
                         </div>
                     </div>
                     <div class="card col-4 card-proyectos">
-                        <img src="./img/paleta-de-colores.png" class="card-img-top" alt="...">
+                        <img src="./img/proyectos/paleta-de-colores.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Paleta de Colores</h5>
                             <p class="card-text">Este es mi primer proyecto utilizando Javascript, al cual le tengo mucho cariño.</p>
@@ -117,36 +120,44 @@
                             <a href="https://agustinricardo1.github.io/PaletaDeColores/" target="_blank"><button class="button-proyectos">Ver</button></a>
                         </div>
                     </div>
-                    <div class="card col-4 card-proyectos">
-                        <img src="" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">PROXIMAMENTE</h5>
-                            <p class="card-text"></p>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Certificados -->
-        <div class="container">
+        <!-- Certificados - Carousel-->
+        <div class="">
             <div class="row no-gutters">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-certificados" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner ">
                         <div class="carousel-item active">
-                            <img src="./img/la-tierra.jpg" class="d-block w-100" alt="...">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="col"><img src="./img/certificados/Desarrollo Web - CoderHouse.png" class="d-block w-100" alt=""></div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col"><img src="./img/certificados/Desarrollo Web - Courseit.png" class="d-block w-100" alt=""></div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col"><img src="./img/certificados/Desarrollo Web - Google Actívate.png" class="d-block w-100" alt=""></div>
+                                </div>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/la-tierra.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./img/la-tierra.jpg" class="d-block w-100" alt="...">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="col"><img src="./img/certificados/Desarrollo Web - Google Actívate 2.png" class="d-block w-100" alt=""></div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col"><img src="./img/certificados/Desarrollo Web (HTML) - Udemy.png" class="d-block w-100" alt=""></div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col"><img src="./img/la-tierra.jpg" class="d-block w-100" alt=""></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -194,9 +205,7 @@
 
         <!-- Redes -->
         <div class="row no-gutters">
-            <div class="redes">
-                    <a  href="https://github.com/agustinricardo1" target="_blank"><button class="github"><i class="fab fa-github"></i></button></a>
-                    <a href="https://www.linkedin.com/in/agustin-ricardo/" target="_blank"><button class="linkedin"><i class="fab fa-linkedin"></i></button></a>
+            <div class="copyright">
                     <p>© Copyright <b>Agustín Ricardo.</b> All Rights Reserved</p>
             </div>
         </div>
